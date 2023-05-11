@@ -44,15 +44,15 @@ cd hid-node
 make install
 ```
 
+## Init node
+```
+hid-noded init $NODENAME --chain-id $CHAIN_ID
+```
+
 ## Config app
 ```
 hid-noded config chain-id $CHAIN_ID
 hid-noded config keyring-backend test
-```
-
-## Init node
-```
-hid-noded init $NODENAME --chain-id $CHAIN_ID
 ```
 
 ## Recover or create new wallet for testnet
